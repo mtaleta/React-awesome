@@ -1,0 +1,98 @@
+/* Inspired by http://strml.net
+* 
+* 我是mTal，本頁是練習用頁面。
+* 首先讓我們來加點東西
+* 先試試增加動畫效果！
+*/
+
+*{
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+/* 接著改變背景顏色*/
+
+html {
+  /* 
+  3，
+  2，
+  1 */
+  background: rgb(130,102,58); 
+}
+.token.comment{ 
+    color: white 
+}
+
+
+/*好像不錯?
+
+* 接著試試字體 
+
+*/
+
+.workArea{
+  color: rgb(222,222,222); 
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 35%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+
+
+/* 
+* ！
+* yoooooooooooooo 
+* 接著試試讓code產生顏色看看！
+
+*/
+
+
+.token.comment{ color: #857F6B; font-style: italic; }
+.token.selector{ color: #E69F0F; }
+.token.property{ color: #64D5EA; }
+.token.punctuation{ color: #64D5EA; }
+.token.function{ color: #BE84F2; }
+
+
+/*
+
+* 看起來挺不錯的？
+* 接著試試其他的東西，把頁面往右移看看！
+* 3，
+* 2，
+* 1
+*/
+
+.workArea {
+  -webkit-transform: translateX(150%);
+  transform:translateX(150%);
+}
+
+/*
+* 接下來寫點別的東西看看
+* 先做個輸入框出來！
+*/
+
+.resume{
+  position:fixed;
+  top:0;
+  padding: .5em;  margin: .5em;
+  background: white; color: #222;
+  width: 40vw; height:500px; 
+  border: 1px solid;
+  overflow: auto;
+  color: rgb(222,222,222); 
+  background: rgb(48, 48, 48);
+}
+
+/*
+* 接著開始寫！
+*/

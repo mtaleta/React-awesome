@@ -1,0 +1,40 @@
+.resume{
+  height:600px;
+}
+
+/* 感覺還不錯？挺有趣的？
+
+接著再來點3D效果！
+
+*/
+body {
+  -webkit-perspective: 1000px;
+  perspective:1000px;
+}
+
+/*  恩？出來了嗎？稍等 */
+.resume {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+/*  這真是太有趣了 */
+.resume {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+  transform:rotateY(10deg);
+  -webkit-transform-origin:rotateY(10deg);
+}
+
+.workArea {
+  -webkit-transform: translateX(150%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  transform:translateX(150%) rotateY(-10deg);
+  transform-origin: right;
+  max-height: 94.5%;
+}
+
+/* 
+到這就結束了！
+package部分還是不太熟悉仍有許多的小問題。
+有時間再繼續改善
+*/
