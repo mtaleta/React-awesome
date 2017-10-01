@@ -83,7 +83,7 @@ export default class App extends Component {
               ref={node => this.resumeNode = node}
               dangerouslySetInnerHTML={{__html: this.state.DOMResumeText}} />
             <div id='bot' style={{padding: '10px', textAlign: 'center', marginTop: '100px', fontSize: '10px', color: 'rgba(150, 150, 150, 0.8'}}>
-              powered by
+              by matl
             </div>
           </div>
         )
